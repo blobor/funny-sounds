@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #db2c39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#playButton {
+  width: 70vw;
+  height: 40vh;
+  background: transparent;
+  border: none;
+  padding: none;
+  outline: none;
+}
+
+#playButton svg g {
+  transform: scale(0.6)
+}

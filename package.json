@@ -1,0 +1,35 @@
+{
+  "name": "funny-sounds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf public && mkdir public",
+    "build": "webpack --config config/webpack.config.prod.js",
+    "start:dev": "webpack-dev-server --config config/webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blobor/funny-sounds.git"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "Bogdan Lobor <b.lobor@outlook.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/blobor/funny-sounds/issues"
+  },
+  "homepage": "https://github.com/blobor/funny-sounds#readme",
+  "dependencies": {
+    "babel-core": "6.21.0",
+    "babel-loader": "6.2.10",
+    "babel-preset-env": "1.1.4",
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.26.1",
+    "html-webpack-plugin": "2.25.0",
+    "style-loader": "0.13.1",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  }
+}
