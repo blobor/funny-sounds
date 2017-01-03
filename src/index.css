@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #db2c39;
+  background-color: #5d9df7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,10 +12,11 @@ body {
   height: 40vh;
   background: transparent;
   border: none;
-  padding: none;
+  padding: 0;
   outline: none;
 }
 
-#playButton svg g {
-  transform: scale(0.6)
+#playButton > svg g {
+  fill: #db2c39;
+  transform: scale(0.28);
 }
